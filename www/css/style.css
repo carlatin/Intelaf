@@ -1,0 +1,27 @@
+/* Empty. Add your own CSS if you like */
+h4{
+	font-family: 'Fjalla One', sans-serif;
+}
+.categorias{
+	font-family: arial black;
+}
+.cpricipal{
+	padding: 2%;
+}
+.cgoria{
+	border: 1px solid #FFF;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.col{
+	display: flex;
+}
+.row{
+	flex-wrap: wrap;
+}
+.logo{
+	background: #FFF;
+}

@@ -1,0 +1,22 @@
+<ion-view view-title="Categorias">
+  <ion-content class="padding">
+    <!--mostrar categorias-->
+    <div class="row logo text-center">
+      <div class="col-10"></div>
+      <div class="col-80">
+        <img src="http://www.intelaf.com/img/top_logo_new_white.png">
+      </div>
+      <div class="col-10"></div>
+    </div>
+    <div class="row text-center"> 
+      <div class="col-50 cprincipal" ng-repeat="n in categoria">
+        <div class="col cgoria">
+            <ul>
+              <li><i class="{{n.icono}}"></i><li>
+              <li><h4>{{n.categoria}}</h4></li>
+            </ul>
+        </div>  
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
