@@ -9,7 +9,6 @@ h4{
 	padding: 2%;
 }
 .cgoria{
-	border: 1px solid #FFF;
 	width: 100%;
 	height: 200px;
 	display: flex;
@@ -21,7 +20,12 @@ h4{
 }
 .row{
 	flex-wrap: wrap;
+		background: #fd5f00;
 }
 .logo{
 	background: #FFF;
+}
+i{
+	font-size: 60px;
+	align-items:center;
 }
