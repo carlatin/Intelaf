@@ -1,3 +1,22 @@
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyBcUlqowYiD3hhe0UXN-i_qj_PAMMl4X9g",
+  authDomain: "intelaf-6f196.firebaseapp.com",
+  databaseURL: "https://intelaf-6f196.firebaseio.com",
+  projectId: "intelaf-6f196",
+  storageBucket: "intelaf-6f196.appspot.com",
+  messagingSenderId: "601010648955",
+  appId: "1:601010648955:web:62da6f52e091fb5a"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+
+
+
+
+
+
 angular.module('starter.controllers', [])
 
 .controller('categoriesCtrl', function($scope) {
