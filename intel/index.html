@@ -6,6 +6,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <meta charset="utf-8">
     <title>Intelaf</title>
+    <link rel="stylesheet" type="text/css" href="https://firebase.google.com/docs/web/setup#config-web-app">
     <link rel="icon" href="http://www.intelaf.com/img/ajax-loader/loading3.gif">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -35,35 +36,35 @@
               <div class="col-md-6">
                 <form class="" action="index.html" method="post">
                   <label>Producto</label><br>
-                  <h5><input type="text" name="" value="" placeholder="    Inserte el nombre del producto"></h5>
+                  <h5><input ng-model="name.producto" type="text" name="" value="" placeholder="    Inserte el nombre del producto"></h5>
                 </form>
                 <form class="" action="index.html" method="post">
                   <label>Descripcion:</label><br>
-                  <h5><input type="text" name="" value="" placeholder="    ¿ Que trata tu producto ?"></h5>
+                  <h5><input ng-model="name.descripcion" type="text" name="" value="" placeholder="    ¿ Que trata tu producto ?"></h5>
                 </form>
                 <form class="" action="index.html" method="post">
                   <label>Marca :</label><br>
-                  <h5><input type="text" name="" value="" placeholder="    Inserte marca del producto"></h5>
+                  <h5><input ng-model="name.marca" type="text" name="" value="" placeholder="    Inserte marca del producto"></h5>
                 </form>
                 <form class="" action="index.html" method="post">
                   <label>Valor :</label><br>
-                  <h5><input type="text" name="" value="" placeholder="    Inserte el valor del producto"></h5>
+                  <h5><input ng-model="name.valor" type="text" name="" value="" placeholder="    Inserte el valor del producto"></h5>
                 </form>
                 <form class="" action="index.html" method="post">
                   <label>Pais de Origen :</label><br>
-                  <h5><input type="text" name="" value="" placeholder="    ¿De que Pais es importado el producto ?"></h5>
+                  <h5><input ng-model="name.pais" type="text" name="" value="" placeholder="    ¿De que Pais es importado el producto ?"></h5>
                 </form>
                 <form class="" action="index.html" method="post">
                   <label>Ciudad de Origen :</label><br>
-                  <h5><input type="text" name="" value="" placeholder="    Lugar de fabricacion"></h5>
+                  <h5><input ng-model="name.ciudad"type="text" name="" value="" placeholder="    Lugar de fabricacion"></h5>
                 </form>
                 <form class="" action="index.html" method="post">
                   <label>Codigo :</label><br>
-                  <h5><input type="text" name="" value="" placeholder="    Inserte codigo de 10 digitos"></h5>
+                  <h5><input ng-model="name.codigo" type="text" name="" value="" placeholder="    Inserte codigo de 10 digitos"></h5>
                 </form>
                 <form class="" action="index.html" method="post">
                   <label>Categoria :</label><br>
-                  <h5><input type="text" name="" value="" placeholder="    Inserte el tipo de producto"></h5>
+                  <h5><input ng-model="name.categoria" type="text" name="" value="" placeholder="    Inserte el tipo de producto"></h5>
                 </form>
                 <!--formulario de la funcion de imagen-->
                 <!--formulario de la funcion de imagen-->
@@ -81,13 +82,16 @@
             </div>
             <br><br>
             <center>
-              <button class="baceptar" type="button" name="button"> ACEPTAR</button>
+              <button class="baceptar" type="button" name="button" ng-click="base(name)"> ACEPTAR</button>
             </center>
           </div>
         </div>
         <div class="col-md-1"></div>
       </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
     <script src="script.js"></script>
   </body>
