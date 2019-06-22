@@ -1,6 +1,19 @@
 /* Empty. Add your own CSS if you like */
 h4{
 	font-family: 'Fjalla One', sans-serif;
+
+}
+i:hover{
+	color:#FFF;
+}
+li:hover{
+	color: #FFF !important;
+}
+h4:hover{
+	color: #FFF !important;
+}
+h3:hover{
+	color: #FFF !important;
 }
 .categorias{
 	font-family: arial black;
@@ -10,15 +23,15 @@ h4{
 }
 .cgoria{
 	width: 100%;
-	height: 200px;
+	height: 150px;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
 }
-.col{
+.col2{
 	display: flex;
 }
-.row{
+.row2{
 	flex-wrap: wrap;
 		background: #fd5f00;
 }
@@ -28,4 +41,59 @@ h4{
 i{
 	font-size: 60px;
 	align-items:center;
+}
+.ico{
+	width: 100px;
+	height: 90px;
+	margin:0 auto;
+	padding-left: 20px;
+}
+.cat{
+	margin-top: 10px !important;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 35px;
+	margin:0 auto;
+	text-align: center;
+}
+.cat2{
+	margin-top: 15px !important;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 50px;
+}
+.a{
+	font-size:25px !important;
+}
+.fondoproducto{
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlzgsTuuzcRV7Uwfs2MigdhUYPiwXpI9HuLOgG3ZBnGiGh6NNS")no-repeat;
+	background-size:cover;
+}
+.padding{
+	background: #fd5f00;
+}
+.filacat{
+	background: #fd5f00;
+}
+.infop{
+	margin:0 auto;
+	background:#FFF;
+	border: 3px solid #000000;
+	height: auto;
+	width: 90% !important;
+}
+.imgproducto{
+	padding: 10px;
+	width: 100%;
+	height: auto;
+	border-radius: 40px;
+}
+.fondonombre{
+	background: #ff6337;
+}
+.fondop2{
+	background: #000000;
+	color: #FFF !important;
+}
+.fondop3{
+	background:#ffa323;
+	color: #ff6337 !important;
 }
