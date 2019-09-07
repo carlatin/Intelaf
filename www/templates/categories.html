@@ -2,21 +2,62 @@
   <ion-content class="padding">
     <!--mostrar categorias-->
     <div class="row logo text-center">
-      <div class="col-10"></div>
-      <div class="col-80">
-        <img class="" src="http://www.intelaf.com/img/top_logo_new_white.png">
+      <div class="col">
+        <img class="log" src="http://www.intelaf.com/img/top_logo_new_white.png">
       </div>
-      <div class="col-10"></div>
     </div>
-    <div class="row row2 text-center">
-      <div class="col-50 cprincipal" ng-repeat="n in categoria">
+    <div class="row row2 text-center ">
+      <div class="col-50 cprincipal" ng-click="funcion(n.categoria)" ng-repeat="n in categoria">
         <div class="col col2 cgoria">
+          <button >
             <ul>
-              <li><i class="{{n.icono}}"></i><li>
-              <li><h4>{{n.categoria}}</h4></li>
+              <li><a><i class="{{n.icono}}"></a></i><li>
+              <li><a><h4>{{n.categoria}}</h4></a></li>
+              <div class="venta">
             </ul>
+          </button>
         </div>
       </div>
     </div>
+    <!--<div class="venta">
+      <div class="row filacat">
+        <div class="col-40">
+          <img class="ico" src="http://www.intelaf.com/img/iconos/Empresa-iloveimg-cropped.png" >
+        </div>
+        <div class="col-60">
+          <h2 class="cat2">Categoria</h2>
+        </div>
+      </div>
+      <br></b>
+      <div class="row" ng-repeat="x in categoria">
+        <div class="col">
+          <div class="infop">
+            <div class="row">
+              <div class="col fondonombre">
+                <h3 class="cat">{{x.categoria}}</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-60">
+                <div class="row fondop2">
+                  <div class="col">
+                    <p><i class="{{x.icono}}"></i></p>
+                    <br>
+                  </div>
+                </div>
+                <div class="row fondop3">
+                  <div class="col">
+                    <h2 class="cat a">Precio</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-40">
+                <img src="https://vignette.wikia.nocookie.net/videojuego/images/e/eb/PC_2018.jpg/revision/latest?cb=20180623034755" class="imgproducto">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
   </ion-content>
 </ion-view>

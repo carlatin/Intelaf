@@ -3,23 +3,38 @@ h4{
 	font-family: 'Fjalla One', sans-serif;
 
 }
-i:hover{
+button{
+	background:none;
+	border: none;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+
+}
+button:hover{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	color:#FFF !important;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+a:hover{
 	color:#FFF;
 }
-li:hover{
-	color: #FFF !important;
+ion-content{
+	padding: none !important;
+	margin: none !important;
 }
-h4:hover{
-	color: #FFF !important;
-}
-h3:hover{
-	color: #FFF !important;
-}
+
 .categorias{
 	font-family: arial black;
 }
 .cpricipal{
-	padding: 2%;
+	padding: none !important;
+	margin: none !important;
 }
 .cgoria{
 	width: 100%;
@@ -31,12 +46,18 @@ h3:hover{
 .col2{
 	display: flex;
 }
+.log{
+	padding: none !important;
+	margin: none !important;
+}
 .row2{
 	flex-wrap: wrap;
-		background: #fd5f00;
+	background: #fd5f00;
 }
 .logo{
 	background: #FFF;
+	padding: none !important;
+	margin: none !important;
 }
 i{
 	font-size: 60px;
@@ -81,7 +102,7 @@ i{
 	width: 90% !important;
 }
 .imgproducto{
-	padding: 10px;
+	padding: none !important;
 	width: 100%;
 	height: auto;
 	border-radius: 40px;

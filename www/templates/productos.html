@@ -9,19 +9,19 @@
       </div>
     </div>
     <br></b>
-    <div class="row">
+    <div class="row" ng-repeat="x in mercaderiaObj | filter: categorySelected">
       <div class="col">
         <div class="infop">
           <div class="row">
             <div class="col fondonombre">
-              <h3 class="cat">{{Categoria.name}}</h3>
+              <h3 class="cat">{{x.producto}}</h3>
             </div>
           </div>
           <div class="row">
             <div class="col-60">
               <div class="row fondop2">
                 <div class="col">
-                  <p>Descripcion</p>
+                  <p></p>
                   <br>
                 </div>
               </div>
