@@ -9,7 +9,7 @@
       </div>
     </div>
     <br></b>
-    <div class="row" ng-repeat="x in mercaderiaObj | filter: categorySelected">
+    <div class="row fila" ng-repeat="x in mercaderiaObj | filter: categorySelected">
       <div class="col">
         <div class="infop">
           <div class="row">
@@ -17,24 +17,26 @@
               <h3 class="cat">{{x.producto}}</h3>
             </div>
           </div>
-          <div class="row">
+          <div class="row text-center">
             <div class="col-60">
               <div class="row fondop2">
                 <div class="col">
-                  <p></p>
+                  <br>
+                  <p>{{x.descripcion}}</p>
                   <br>
                 </div>
               </div>
               <div class="row fondop3">
                 <div class="col">
-                  <h2 class="cat a">Precio</h2>
+                  <h2 class="cat a">Q.{{x.valor}}</h2>
                 </div>
               </div>
             </div>
             <div class="col-40">
-              <img src="https://vignette.wikia.nocookie.net/videojuego/images/e/eb/PC_2018.jpg/revision/latest?cb=20180623034755" class="imgproducto">
+              <img src="{{x.imagen}}" class="imgproducto">
             </div>
           </div>
+          <button class="compras" onclick="funcionalert()"><b>A  D  Q  U  I  R  I  R</b></button>
         </div>
       </div>
     </div>

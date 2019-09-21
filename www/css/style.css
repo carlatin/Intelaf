@@ -118,3 +118,14 @@ i{
 	background:#ffa323;
 	color: #ff6337 !important;
 }
+.compras{
+	background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(251,223,147,1) 22%, rgba(251,223,147,1) 65%, rgba(251,223,147,1) 100%);
+	color:#ff6337 ;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.fila{
+	height: 100%;
+}
